@@ -2,12 +2,13 @@ import java.math.*;
 
 public class player {
 
+    //cosas que se pueden tocar
     private int pokemon;
     private int vida;
     private String pokename;
     private int potenciador;
 
-    //clases Privadas sin interaccion humana
+    //variables Privadas sin interaccion humana
     private int limitHeal;
     private int lastAtack;
 
@@ -18,6 +19,7 @@ public class player {
         pokename = "Furrymon desconocido";
         limitHeal = 3;
     }
+    
     public void setPokemon(int id, int hp, String name, int poten) {
         pokemon = id;
         vida = hp;
@@ -36,9 +38,11 @@ public class player {
         }
         return vida;
     }
+    //cargar limites de curacion
     public int getLimitHeal() {
         return limitHeal;
     }
+    //devoover el ultimo ataque
     public int getLastAtack() {
         return lastAtack;
     }
@@ -65,5 +69,6 @@ public class player {
         }
     }
 
-
+//hasta este punto el juego de consola funciona 
+//el intento de GUI aun no funciona
 }
