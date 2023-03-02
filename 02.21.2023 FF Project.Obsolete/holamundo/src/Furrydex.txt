@@ -1,1 +1,7 @@
+//parte sin trabajar 
+//errores de lectura en el archivo
+//pospuesto para el trabajo de database y GUI
 1 125 "El Inge"
+
+
+//Iram McFly 20.02.2023
